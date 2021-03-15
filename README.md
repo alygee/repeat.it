@@ -1,6 +1,7 @@
 # Tool for studying Chinese radicals
 
-Convenient to read, write, listen and memorize
+Convenient to read, write, listen and memorize.  
+The API documentation is on this route /api/documentation.  
 
 ## Installation
 
@@ -9,3 +10,5 @@ Convenient to read, write, listen and memorize
 -   `cp .env.example .env` and setup database connection
 -   `php artisan migrate`
 -   `php artisan key:generate`
+
+
