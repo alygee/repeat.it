@@ -21,25 +21,27 @@
             </tr>
           </thead>
           <tbody class="bg-white divide-y divide-gray-200">
+            @foreach ($items as $item)
             <tr>
-              <td class="px-6 py-4 whitespace-nowrap">Один</td>
+              <td class="px-6 py-4 whitespace-nowrap">{{ $item['name'] }}</td>
               <td class="px-6 py-4 whitespace-nowrap">
                 <div class="text-sm text-gray-900">
                   <audio
                       controls
-                      src="/storage/lesson/audio/yi1.mp3">
+                      src="{{ $item['audio'] }}">
                           Your browser does not support the
                           <code>audio</code> element.
                   </audio>
                 </div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <img src="/storage/lesson/images/key1.gif" alt="key 1" />
+                <img src="{{ $item['image'] }}" alt="key 1" />
               </td>
               <td>
-                один, первый, во-первых, одинаковый, единый, единичный, каждый, отдельный, весь, сплошной, целый
+                {{ $item['meaning'] }}
               </td>
             </tr>
+            @endforeach
           </tbody>
         </table>
       </div>

@@ -6,6 +6,17 @@ use Illuminate\View\Component;
 
 class Table extends Component
 {
+    const ITEMS = [
+      [
+        'name' => 'Один',
+        'audio' => '/storage/lesson/audio/yi1.mp3',
+        'image' => '/storage/lesson/images/key1.gif',
+        'meaning' => 'один, первый, во-первых, одинаковый, единый, единичный, каждый, отдельный, весь, сплошной, целый'
+      ],
+    ];
+
+    public $items;
+
     /**
      * Create a new component instance.
      *
@@ -13,7 +24,7 @@ class Table extends Component
      */
     public function __construct()
     {
-        //
+        $this->items = self::ITEMS;
     }
 
     /**
