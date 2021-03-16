@@ -1,5 +1,5 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="flex flex-col w-2/3 m-auto">
+<div class="flex flex-col lg:w-2/3 m-auto">
   <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
     <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
       <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
@@ -25,13 +25,17 @@
             <tr>
               <td class="px-6 py-4 whitespace-nowrap">{{ $item['name'] }}</td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm text-gray-900">
-                  <audio
-                      controls
-                      src="{{ $item['audio'] }}">
-                          Your browser does not support the
-                          <code>audio</code> element.
-                  </audio>
+                <div class="text-sm text-center text-gray-900">
+                  @if ($item['audio'])
+                    <audio
+                        controls
+                        src="{{ $item['audio'] }}">
+                            Your browser does not support the
+                            <code>audio</code> element.
+                    </audio>
+                  @else
+                    нет озвучки
+                  @endif
                 </div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
