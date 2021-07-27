@@ -1,0 +1,187 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+AppServiceProvider	app/Providers/AppServiceProvider.php	/^class AppServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+App\\Console	app/Console/Kernel.php	/^namespace App\\Console;$/;"	n
+App\\Exceptions	app/Exceptions/Handler.php	/^namespace App\\Exceptions;$/;"	n
+App\\Http	app/Http/Kernel.php	/^namespace App\\Http;$/;"	n
+App\\Http\\Controllers	app/Http/Controllers/Controller.php	/^namespace App\\Http\\Controllers;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/Authenticate.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/EncryptCookies.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/PreventRequestsDuringMaintenance.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/RedirectIfAuthenticated.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/TrimStrings.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/TrustHosts.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/TrustProxies.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/VerifyCsrfToken.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Models	app/Models/User.php	/^namespace App\\Models;$/;"	n
+App\\Providers	app/Providers/AppServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/AuthServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/BroadcastServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/EventServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/RouteServiceProvider.php	/^namespace App\\Providers;$/;"	n
+Artisan	routes/console.php	/^use Illuminate\\Support\\Facades\\Artisan;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Artisan
+Auth	app/Http/Middleware/RedirectIfAuthenticated.php	/^use Illuminate\\Support\\Facades\\Auth;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Support\\Facades\\Auth
+AuthServiceProvider	app/Providers/AuthServiceProvider.php	/^class AuthServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+Authenticatable	app/Models/User.php	/^use Illuminate\\Foundation\\Auth\\User as Authenticatable;$/;"	a	namespace:App\\Models	typeref:unknown:Illuminate\\Foundation\\Auth\\User
+Authenticate	app/Http/Middleware/Authenticate.php	/^class Authenticate extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+AuthorizesRequests	app/Http/Controllers/Controller.php	/^use Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests;$/;"	a	namespace:App\\Http\\Controllers	typeref:unknown:Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests
+BaseController	app/Http/Controllers/Controller.php	/^use Illuminate\\Routing\\Controller as BaseController;$/;"	a	namespace:App\\Http\\Controllers	typeref:unknown:Illuminate\\Routing\\Controller
+BaseTestCase	tests/TestCase.php	/^use Illuminate\\Foundation\\Testing\\TestCase as BaseTestCase;$/;"	a	namespace:Tests	typeref:unknown:Illuminate\\Foundation\\Testing\\TestCase
+Blueprint	database/migrations/2014_10_12_000000_create_users_table.php	/^use Illuminate\\Database\\Schema\\Blueprint;$/;"	a	typeref:unknown:Illuminate\\Database\\Schema\\Blueprint
+Blueprint	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^use Illuminate\\Database\\Schema\\Blueprint;$/;"	a	typeref:unknown:Illuminate\\Database\\Schema\\Blueprint
+Blueprint	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^use Illuminate\\Database\\Schema\\Blueprint;$/;"	a	typeref:unknown:Illuminate\\Database\\Schema\\Blueprint
+Broadcast	app/Providers/BroadcastServiceProvider.php	/^use Illuminate\\Support\\Facades\\Broadcast;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\Facades\\Broadcast
+Broadcast	routes/channels.php	/^use Illuminate\\Support\\Facades\\Broadcast;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Broadcast
+BroadcastServiceProvider	app/Providers/BroadcastServiceProvider.php	/^class BroadcastServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+Closure	app/Http/Middleware/RedirectIfAuthenticated.php	/^use Closure;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Closure
+ConsoleKernel	app/Console/Kernel.php	/^use Illuminate\\Foundation\\Console\\Kernel as ConsoleKernel;$/;"	a	namespace:App\\Console	typeref:unknown:Illuminate\\Foundation\\Console\\Kernel
+Controller	app/Http/Controllers/Controller.php	/^class Controller extends BaseController$/;"	c	namespace:App\\Http\\Controllers
+CreateFailedJobsTable	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^class CreateFailedJobsTable extends Migration$/;"	c
+CreatePasswordResetsTable	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^class CreatePasswordResetsTable extends Migration$/;"	c
+CreateUsersTable	database/migrations/2014_10_12_000000_create_users_table.php	/^class CreateUsersTable extends Migration$/;"	c
+CreatesApplication	tests/CreatesApplication.php	/^trait CreatesApplication$/;"	t	namespace:Tests
+DatabaseSeeder	database/seeders/DatabaseSeeder.php	/^class DatabaseSeeder extends Seeder$/;"	c	namespace:Database\\Seeders
+Database\\Factories	database/factories/UserFactory.php	/^namespace Database\\Factories;$/;"	n
+Database\\Seeders	database/seeders/DatabaseSeeder.php	/^namespace Database\\Seeders;$/;"	n
+DispatchesJobs	app/Http/Controllers/Controller.php	/^use Illuminate\\Foundation\\Bus\\DispatchesJobs;$/;"	a	namespace:App\\Http\\Controllers	typeref:unknown:Illuminate\\Foundation\\Bus\\DispatchesJobs
+EncryptCookies	app/Http/Middleware/EncryptCookies.php	/^class EncryptCookies extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+Event	app/Providers/EventServiceProvider.php	/^use Illuminate\\Support\\Facades\\Event;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\Facades\\Event
+EventServiceProvider	app/Providers/EventServiceProvider.php	/^class EventServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+ExampleTest	tests/Feature/ExampleTest.php	/^class ExampleTest extends TestCase$/;"	c	namespace:Tests\\Feature
+ExampleTest	tests/Unit/ExampleTest.php	/^class ExampleTest extends TestCase$/;"	c	namespace:Tests\\Unit
+ExceptionHandler	app/Exceptions/Handler.php	/^use Illuminate\\Foundation\\Exceptions\\Handler as ExceptionHandler;$/;"	a	namespace:App\\Exceptions	typeref:unknown:Illuminate\\Foundation\\Exceptions\\Handler
+Factory	database/factories/UserFactory.php	/^use Illuminate\\Database\\Eloquent\\Factories\\Factory;$/;"	a	namespace:Database\\Factories	typeref:unknown:Illuminate\\Database\\Eloquent\\Factories\\Factory
+Gate	app/Providers/AuthServiceProvider.php	/^use Illuminate\\Support\\Facades\\Gate;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\Facades\\Gate
+HOME	app/Providers/RouteServiceProvider.php	/^    public const HOME = '\/home';$/;"	d	class:App\\Providers\\RouteServiceProvider
+Handler	app/Exceptions/Handler.php	/^class Handler extends ExceptionHandler$/;"	c	namespace:App\\Exceptions
+HasFactory	app/Models/User.php	/^use Illuminate\\Database\\Eloquent\\Factories\\HasFactory;$/;"	a	namespace:App\\Models	typeref:unknown:Illuminate\\Database\\Eloquent\\Factories\\HasFactory
+HttpKernel	app/Http/Kernel.php	/^use Illuminate\\Foundation\\Http\\Kernel as HttpKernel;$/;"	a	namespace:App\\Http	typeref:unknown:Illuminate\\Foundation\\Http\\Kernel
+Inspiring	routes/console.php	/^use Illuminate\\Foundation\\Inspiring;$/;"	a	typeref:unknown:Illuminate\\Foundation\\Inspiring
+Kernel	app/Console/Kernel.php	/^class Kernel extends ConsoleKernel$/;"	c	namespace:App\\Console
+Kernel	app/Http/Kernel.php	/^class Kernel extends HttpKernel$/;"	c	namespace:App\\Http
+Kernel	public/index.php	/^use Illuminate\\Contracts\\Http\\Kernel;$/;"	a	typeref:unknown:Illuminate\\Contracts\\Http\\Kernel
+Kernel	tests/CreatesApplication.php	/^use Illuminate\\Contracts\\Console\\Kernel;$/;"	a	namespace:Tests	typeref:unknown:Illuminate\\Contracts\\Console\\Kernel
+LARAVEL_START	artisan	/^define('LARAVEL_START', microtime(true));$/;"	d
+LARAVEL_START	public/index.php	/^define('LARAVEL_START', microtime(true));$/;"	d
+Limit	app/Providers/RouteServiceProvider.php	/^use Illuminate\\Cache\\RateLimiting\\Limit;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Cache\\RateLimiting\\Limit
+Middleware	app/Http/Middleware/Authenticate.php	/^use Illuminate\\Auth\\Middleware\\Authenticate as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Auth\\Middleware\\Authenticate
+Middleware	app/Http/Middleware/EncryptCookies.php	/^use Illuminate\\Cookie\\Middleware\\EncryptCookies as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Cookie\\Middleware\\EncryptCookies
+Middleware	app/Http/Middleware/PreventRequestsDuringMaintenance.php	/^use Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance
+Middleware	app/Http/Middleware/TrimStrings.php	/^use Illuminate\\Foundation\\Http\\Middleware\\TrimStrings as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Foundation\\Http\\Middleware\\TrimStrings
+Middleware	app/Http/Middleware/TrustHosts.php	/^use Illuminate\\Http\\Middleware\\TrustHosts as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Http\\Middleware\\TrustHosts
+Middleware	app/Http/Middleware/TrustProxies.php	/^use Fideloper\\Proxy\\TrustProxies as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Fideloper\\Proxy\\TrustProxies
+Middleware	app/Http/Middleware/VerifyCsrfToken.php	/^use Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken
+Migration	database/migrations/2014_10_12_000000_create_users_table.php	/^use Illuminate\\Database\\Migrations\\Migration;$/;"	a	typeref:unknown:Illuminate\\Database\\Migrations\\Migration
+Migration	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^use Illuminate\\Database\\Migrations\\Migration;$/;"	a	typeref:unknown:Illuminate\\Database\\Migrations\\Migration
+Migration	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^use Illuminate\\Database\\Migrations\\Migration;$/;"	a	typeref:unknown:Illuminate\\Database\\Migrations\\Migration
+MustVerifyEmail	app/Models/User.php	/^use Illuminate\\Contracts\\Auth\\MustVerifyEmail;$/;"	a	namespace:App\\Models	typeref:unknown:Illuminate\\Contracts\\Auth\\MustVerifyEmail
+Notifiable	app/Models/User.php	/^use Illuminate\\Notifications\\Notifiable;$/;"	a	namespace:App\\Models	typeref:unknown:Illuminate\\Notifications\\Notifiable
+NullHandler	config/logging.php	/^use Monolog\\Handler\\NullHandler;$/;"	a	typeref:unknown:Monolog\\Handler\\NullHandler
+PreventRequestsDuringMaintenance	app/Http/Middleware/PreventRequestsDuringMaintenance.php	/^class PreventRequestsDuringMaintenance extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+RateLimiter	app/Providers/RouteServiceProvider.php	/^use Illuminate\\Support\\Facades\\RateLimiter;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\Facades\\RateLimiter
+RedirectIfAuthenticated	app/Http/Middleware/RedirectIfAuthenticated.php	/^class RedirectIfAuthenticated$/;"	c	namespace:App\\Http\\Middleware
+RefreshDatabase	tests/Feature/ExampleTest.php	/^use Illuminate\\Foundation\\Testing\\RefreshDatabase;$/;"	a	namespace:Tests\\Feature	typeref:unknown:Illuminate\\Foundation\\Testing\\RefreshDatabase
+Registered	app/Providers/EventServiceProvider.php	/^use Illuminate\\Auth\\Events\\Registered;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Auth\\Events\\Registered
+Request	app/Http/Middleware/RedirectIfAuthenticated.php	/^use Illuminate\\Http\\Request;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Http\\Request
+Request	app/Http/Middleware/TrustProxies.php	/^use Illuminate\\Http\\Request;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Http\\Request
+Request	app/Providers/RouteServiceProvider.php	/^use Illuminate\\Http\\Request;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Http\\Request
+Request	public/index.php	/^use Illuminate\\Http\\Request;$/;"	a	typeref:unknown:Illuminate\\Http\\Request
+Request	routes/api.php	/^use Illuminate\\Http\\Request;$/;"	a	typeref:unknown:Illuminate\\Http\\Request
+Route	app/Providers/RouteServiceProvider.php	/^use Illuminate\\Support\\Facades\\Route;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\Facades\\Route
+Route	routes/api.php	/^use Illuminate\\Support\\Facades\\Route;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Route
+Route	routes/web.php	/^use Illuminate\\Support\\Facades\\Route;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Route
+RouteServiceProvider	app/Http/Middleware/RedirectIfAuthenticated.php	/^use App\\Providers\\RouteServiceProvider;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:App\\Providers\\RouteServiceProvider
+RouteServiceProvider	app/Providers/RouteServiceProvider.php	/^class RouteServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+Schedule	app/Console/Kernel.php	/^use Illuminate\\Console\\Scheduling\\Schedule;$/;"	a	namespace:App\\Console	typeref:unknown:Illuminate\\Console\\Scheduling\\Schedule
+Schema	database/migrations/2014_10_12_000000_create_users_table.php	/^use Illuminate\\Support\\Facades\\Schema;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Schema
+Schema	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^use Illuminate\\Support\\Facades\\Schema;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Schema
+Schema	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^use Illuminate\\Support\\Facades\\Schema;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Schema
+Seeder	database/seeders/DatabaseSeeder.php	/^use Illuminate\\Database\\Seeder;$/;"	a	namespace:Database\\Seeders	typeref:unknown:Illuminate\\Database\\Seeder
+SendEmailVerificationNotification	app/Providers/EventServiceProvider.php	/^use Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification
+ServiceProvider	app/Providers/AppServiceProvider.php	/^use Illuminate\\Support\\ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\ServiceProvider
+ServiceProvider	app/Providers/AuthServiceProvider.php	/^use Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider as ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider
+ServiceProvider	app/Providers/BroadcastServiceProvider.php	/^use Illuminate\\Support\\ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\ServiceProvider
+ServiceProvider	app/Providers/EventServiceProvider.php	/^use Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider as ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider
+ServiceProvider	app/Providers/RouteServiceProvider.php	/^use Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider as ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider
+Str	config/cache.php	/^use Illuminate\\Support\\Str;$/;"	a	typeref:unknown:Illuminate\\Support\\Str
+Str	config/database.php	/^use Illuminate\\Support\\Str;$/;"	a	typeref:unknown:Illuminate\\Support\\Str
+Str	config/session.php	/^use Illuminate\\Support\\Str;$/;"	a	typeref:unknown:Illuminate\\Support\\Str
+Str	database/factories/UserFactory.php	/^use Illuminate\\Support\\Str;$/;"	a	namespace:Database\\Factories	typeref:unknown:Illuminate\\Support\\Str
+StreamHandler	config/logging.php	/^use Monolog\\Handler\\StreamHandler;$/;"	a	typeref:unknown:Monolog\\Handler\\StreamHandler
+SyslogUdpHandler	config/logging.php	/^use Monolog\\Handler\\SyslogUdpHandler;$/;"	a	typeref:unknown:Monolog\\Handler\\SyslogUdpHandler
+TestCase	tests/Feature/ExampleTest.php	/^use Tests\\TestCase;$/;"	a	namespace:Tests\\Feature	typeref:unknown:Tests\\TestCase
+TestCase	tests/TestCase.php	/^abstract class TestCase extends BaseTestCase$/;"	c	namespace:Tests
+TestCase	tests/Unit/ExampleTest.php	/^use PHPUnit\\Framework\\TestCase;$/;"	a	namespace:Tests\\Unit	typeref:unknown:PHPUnit\\Framework\\TestCase
+Tests	tests/CreatesApplication.php	/^namespace Tests;$/;"	n
+Tests	tests/TestCase.php	/^namespace Tests;$/;"	n
+Tests\\Feature	tests/Feature/ExampleTest.php	/^namespace Tests\\Feature;$/;"	n
+Tests\\Unit	tests/Unit/ExampleTest.php	/^namespace Tests\\Unit;$/;"	n
+Throwable	app/Exceptions/Handler.php	/^use Throwable;$/;"	a	namespace:App\\Exceptions	typeref:unknown:Throwable
+TrimStrings	app/Http/Middleware/TrimStrings.php	/^class TrimStrings extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+TrustHosts	app/Http/Middleware/TrustHosts.php	/^class TrustHosts extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+TrustProxies	app/Http/Middleware/TrustProxies.php	/^class TrustProxies extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+User	app/Models/User.php	/^class User extends Authenticatable$/;"	c	namespace:App\\Models
+User	database/factories/UserFactory.php	/^use App\\Models\\User;$/;"	a	namespace:Database\\Factories	typeref:unknown:App\\Models\\User
+UserFactory	database/factories/UserFactory.php	/^class UserFactory extends Factory$/;"	c	namespace:Database\\Factories
+ValidatesRequests	app/Http/Controllers/Controller.php	/^use Illuminate\\Foundation\\Validation\\ValidatesRequests;$/;"	a	namespace:App\\Http\\Controllers	typeref:unknown:Illuminate\\Foundation\\Validation\\ValidatesRequests
+VerifyCsrfToken	app/Http/Middleware/VerifyCsrfToken.php	/^class VerifyCsrfToken extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+app	artisan	/^$app = require_once __DIR__.'\/bootstrap\/app.php';$/;"	v
+app	bootstrap/app.php	/^$app = new Illuminate\\Foundation\\Application($/;"	v
+app	public/index.php	/^$app = require_once __DIR__.'\/..\/bootstrap\/app.php';$/;"	v
+boot	app/Providers/AppServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\AppServiceProvider
+boot	app/Providers/AuthServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\AuthServiceProvider
+boot	app/Providers/BroadcastServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\BroadcastServiceProvider
+boot	app/Providers/EventServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\EventServiceProvider
+boot	app/Providers/RouteServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\RouteServiceProvider
+casts	app/Models/User.php	/^    protected $casts = [$/;"	v	class:App\\Models\\User
+commands	app/Console/Kernel.php	/^    protected $commands = [$/;"	v	class:App\\Console\\Kernel
+commands	app/Console/Kernel.php	/^    protected function commands()$/;"	f	class:App\\Console\\Kernel
+configureRateLimiting	app/Providers/RouteServiceProvider.php	/^    protected function configureRateLimiting()$/;"	f	class:group\\base_path\\RouteServiceProvider
+createApplication	tests/CreatesApplication.php	/^    public function createApplication()$/;"	f	trait:Tests\\CreatesApplication
+definition	database/factories/UserFactory.php	/^    public function definition()$/;"	f	class:Database\\Factories\\UserFactory
+dontFlash	app/Exceptions/Handler.php	/^    protected $dontFlash = [$/;"	v	class:App\\Exceptions\\Handler
+dontReport	app/Exceptions/Handler.php	/^    protected $dontReport = [$/;"	v	class:App\\Exceptions\\Handler
+down	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function down()$/;"	f	class:CreateUsersTable
+down	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^    public function down()$/;"	f	class:CreatePasswordResetsTable
+down	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^    public function down()$/;"	f	class:CreateFailedJobsTable
+except	app/Http/Middleware/EncryptCookies.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\EncryptCookies
+except	app/Http/Middleware/PreventRequestsDuringMaintenance.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\PreventRequestsDuringMaintenance
+except	app/Http/Middleware/TrimStrings.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\TrimStrings
+except	app/Http/Middleware/VerifyCsrfToken.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\VerifyCsrfToken
+fillable	app/Models/User.php	/^    protected $fillable = [$/;"	v	class:App\\Models\\User
+group\\base_path	app/Providers/RouteServiceProvider.php	/^                ->namespace($this->namespace)$/;"	n
+handle	app/Http/Middleware/RedirectIfAuthenticated.php	/^    public function handle(Request $request, Closure $next, ...$guards)$/;"	f	class:App\\Http\\Middleware\\RedirectIfAuthenticated
+headers	app/Http/Middleware/TrustProxies.php	/^    protected $headers = Request::HEADER_X_FORWARDED_FOR | Request::HEADER_X_FORWARDED_HOST | Re/;"	v	class:App\\Http\\Middleware\\TrustProxies
+hidden	app/Models/User.php	/^    protected $hidden = [$/;"	v	class:App\\Models\\User
+hosts	app/Http/Middleware/TrustHosts.php	/^    public function hosts()$/;"	f	class:App\\Http\\Middleware\\TrustHosts
+input	artisan	/^    $input = new Symfony\\Component\\Console\\Input\\ArgvInput,$/;"	v
+kernel	artisan	/^$kernel = $app->make(Illuminate\\Contracts\\Console\\Kernel::class);$/;"	v
+kernel	public/index.php	/^$kernel = $app->make(Kernel::class);$/;"	v
+listen	app/Providers/EventServiceProvider.php	/^    protected $listen = [$/;"	v	class:App\\Providers\\EventServiceProvider
+middleware	app/Http/Kernel.php	/^    protected $middleware = [$/;"	v	class:App\\Http\\Kernel
+middlewareGroups	app/Http/Kernel.php	/^    protected $middlewareGroups = [$/;"	v	class:App\\Http\\Kernel
+mix	webpack.mix.js	/^const mix = require('laravel-mix');$/;"	C
+model	database/factories/UserFactory.php	/^    protected $model = User::class;$/;"	v	class:Database\\Factories\\UserFactory
+policies	app/Providers/AuthServiceProvider.php	/^    protected $policies = [$/;"	v	class:App\\Providers\\AuthServiceProvider
+proxies	app/Http/Middleware/TrustProxies.php	/^    protected $proxies;$/;"	v	class:App\\Http\\Middleware\\TrustProxies
+redirectTo	app/Http/Middleware/Authenticate.php	/^    protected function redirectTo($request)$/;"	f	class:App\\Http\\Middleware\\Authenticate
+register	app/Exceptions/Handler.php	/^    public function register()$/;"	f	class:App\\Exceptions\\Handler
+register	app/Providers/AppServiceProvider.php	/^    public function register()$/;"	f	class:App\\Providers\\AppServiceProvider
+request	public/index.php	/^    $request = Request::capture()$/;"	v
+response	public/index.php	/^$response = tap($kernel->handle($/;"	v
+routeMiddleware	app/Http/Kernel.php	/^    protected $routeMiddleware = [$/;"	v	class:App\\Http\\Kernel
+run	database/seeders/DatabaseSeeder.php	/^    public function run()$/;"	f	class:Database\\Seeders\\DatabaseSeeder
+schedule	app/Console/Kernel.php	/^    protected function schedule(Schedule $schedule)$/;"	f	class:App\\Console\\Kernel
+status	artisan	/^$status = $kernel->handle($/;"	v
+test_example	tests/Feature/ExampleTest.php	/^    public function test_example()$/;"	f	class:Tests\\Feature\\ExampleTest
+test_example	tests/Unit/ExampleTest.php	/^    public function test_example()$/;"	f	class:Tests\\Unit\\ExampleTest
+unverified	database/factories/UserFactory.php	/^    public function unverified()$/;"	f	class:Database\\Factories\\UserFactory
+up	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function up()$/;"	f	class:CreateUsersTable
+up	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^    public function up()$/;"	f	class:CreatePasswordResetsTable
+up	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^    public function up()$/;"	f	class:CreateFailedJobsTable
+uri	server.php	/^$uri = urldecode($/;"	v
