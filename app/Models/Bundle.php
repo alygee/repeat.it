@@ -15,4 +15,12 @@ class Bundle extends Model
      * @var bool
      */
     public $timestamps = false;
+
+    /**
+     * Get the cards for the bundle.
+     */
+    public function cards()
+    {
+        return $this->hasMany(Card::class);
+    }
 }

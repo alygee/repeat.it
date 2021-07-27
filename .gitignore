@@ -14,3 +14,4 @@ yarn-error.log
 /.idea
 /.vscode
 tags
+.php_cs.cache

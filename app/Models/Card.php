@@ -15,4 +15,12 @@ class Card extends Model
      * @var bool
      */
     public $timestamps = false;
+
+    /**
+     * Get the word associated with the card.
+     */
+    public function word()
+    {
+        return $this->hasOne(Word::class);
+    }
 }

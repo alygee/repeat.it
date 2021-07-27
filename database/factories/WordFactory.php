@@ -22,7 +22,7 @@ class WordFactory extends Factory
     public function definition()
     {
         return [
-            //
+          'word' => $this->faker->sentence(5),
         ];
     }
 }

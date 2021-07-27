@@ -40,4 +40,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * Get the bundles for the user.
+     */
+    public function bundles()
+    {
+        return $this->hasMany(Bundle::class);
+    }
 }

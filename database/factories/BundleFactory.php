@@ -22,7 +22,7 @@ class BundleFactory extends Factory
     public function definition()
     {
         return [
-            //
+          'trained_at' => now()
         ];
     }
 }
