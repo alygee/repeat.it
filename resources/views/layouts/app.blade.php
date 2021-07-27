@@ -70,6 +70,12 @@
                                 </div>
                             </li>
                         @endguest
+                        <li class="nav-item">
+                          <a class="nav-link" href="{{ route('locale', ['locale' => 'en']) }}">EN</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="{{ route('locale', ['locale' => 'ru']) }}">RU</a>
+                        </li>
                     </ul>
                 </div>
             </div>
