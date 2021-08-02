@@ -17,3 +17,17 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('register', [App\Http\Controllers\PassportAuthController::class, 'register']);
+Route::post('login', [App\Http\Controllers\PassportAuthController::class, 'login']);
+
+Route::middleware('auth:api')->group(function () {
+    Route::resource('posts', App\Http\Controllers\PostController::class);
+});
+/* Route::group(['namespace' => 'Api'], function () { */
+/*     Route::group(['namespace' => 'Auth'], function () { */
+/*         Route::post('register', 'RegisterController'); */
+/*         Route::post('login', 'LoginController'); */
+/*         Route::post('logout', 'LogoutController')->middleware('auth:api'); */
+/*     }); */
+/* }); */
