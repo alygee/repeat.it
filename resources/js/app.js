@@ -31,6 +31,26 @@ window.Vue = require("vue").default;
  */
 
 import { createApp } from "vue";
-import App from './components/App.vue'
+import { VuesticPlugin } from "vuestic-ui";
+import "vuestic-ui/dist/vuestic-ui.css";
+import ExampleComponent from "./components/ExampleComponent.vue";
 
-createApp(App).mount("#app");
+createApp({})
+    .component("Example", ExampleComponent)
+    .use(VuesticPlugin, {
+        colors: {
+            // Default colors
+            primary: "#23e066",
+            secondary: "#002c85",
+            success: "#40e583",
+            info: "#2c82e0",
+            danger: "#e34b4a",
+            warning: "#ffc200",
+            gray: "#babfc2",
+            dark: "#34495e",
+
+            // Custom colors
+            yourCustomColor: "#d0f55d"
+        }
+    })
+    .mount("#app");
