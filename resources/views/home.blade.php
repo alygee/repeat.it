@@ -17,6 +17,7 @@
                     {{ __('messages.you_are_logged_in') }}
                 </div>
             </div>
+            <example-component />
         </div>
     </div>
 </div>
